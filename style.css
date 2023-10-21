@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color:rgb(240,240,240) ;
+}
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 700px;
+}
+.card-top {
+  grid-column: 1/3;
+  background-color: white;
+  padding: 20px;
+}
+.card-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-top-heading {
+  color: rgb(44, 180, 178);
+}
+
+.card-top-para1 {
+  padding: 10px 0 10px 0;
+  color: rgb(192, 233, 48);
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.card-top-para2 {
+  color: rgb(228, 228, 230);
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 0 0 15px 0;
+}
+.card-left {
+  padding: 1.5rem;
+  color: white;
+  background-color:rgb(44,180,178);
+  
+  
+}
+.card-left-heading {
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 0 0 10px 0;
+}
+.span-1{
+font-size:25px;
+font-family: sans-serif ;
+}
+.span-2{
+  font-size: 10px;
+  padding: 0 0 0 5px;
+}
+.card-left-para{
+  font-size: 10px;
+  font-family: sans-serif;
+  padding: 10px 0 20px 0;
+}
+.card-left button{
+  width: 100%;
+  padding: 10px ;
+  background-color:rgb(190,222,49);
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.card-right{
+  padding: 1.5rem;
+  background-color: rgb(74,190,189);
+  color: white;
+  }
+  
+.card-right h2{
+  padding: 0 0 15px 0;
+  background-color:
+  }
+.card-right p{
+  padding: 0 50px 20px 0;
+  background-color
+  }
